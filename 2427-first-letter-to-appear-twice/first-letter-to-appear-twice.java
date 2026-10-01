@@ -6,7 +6,7 @@ class Solution {
             freq[ch-'a']++;
             for (int i=0;i<26;i++){
                 if (freq[ch-'a']==2){
-                    return (char)('a'+(ch-'a'));
+                    return ch;
                 }
             }
         }
